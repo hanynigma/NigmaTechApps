@@ -1,8 +1,7 @@
 {
   "app_config": {
     "force_update_version_code": 18,
-    "is_update_optional": true, 
-    "is_online_access_enabled": true
+    "is_update_optional": true
   },
   "ads_config": {
     "is_ads_enabled": true,
