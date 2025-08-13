@@ -8,7 +8,7 @@
     "get_code_ad_type": "NONE", 
     "enabled_formats": {
       "app_open": true,
-      "banner": false,
+      "banner": true,
       "interstitial": true,
       "rewarded": true,
       "rewarded_interstitial": true
