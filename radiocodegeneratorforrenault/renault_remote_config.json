@@ -5,7 +5,7 @@
   },
   "ads_config": {
     "is_ads_enabled": true,
-    "get_code_ad_type": "INTERSTITIAL", 
+    "get_code_ad_type": "REWARDED_INTERSTITIAL", 
     "enabled_formats": {
       "app_open": true,
       "banner": true,
