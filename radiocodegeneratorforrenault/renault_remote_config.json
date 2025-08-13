@@ -1,11 +1,12 @@
 {
   "app_config": {
-    "force_update_version_code": 21,
+    "force_update_version_code": 18,
+    "is_update_optional": true, 
     "is_online_access_enabled": true
   },
   "ads_config": {
     "is_ads_enabled": true,
-    "get_code_ad_type": "REWARDED_INTERSTITIAL", 
+    "get_code_ad_type": "REWARDED_INTERSTITIAL",
     "enabled_formats": {
       "app_open": true,
       "banner": true,
@@ -16,7 +17,9 @@
     "ad_unit_ids": {
       "admob_app_id": "ca-app-pub-3973449687419911~9682981347",
       "app_open": "ca-app-pub-3973449687419911/1544307845",
+      "banner_main_open": "ca-app-pub-3973449687419911/4460431013",
       "banner_main": "ca-app-pub-3973449687419911/4308694727",
+      "banner_result": "ca-app-pub-3973449687419911/1388854588",
       "interstitial_general": "ca-app-pub-3973449687419911/9369449717",
       "rewarded_general": "ca-app-pub-3973449687419911/9157171184",
       "rewarded_interstitial_get_code": "ca-app-pub-3973449687419911/4304864400"
