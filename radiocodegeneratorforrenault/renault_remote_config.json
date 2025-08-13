@@ -4,11 +4,11 @@
     "is_online_access_enabled": true
   },
   "ads_config": {
-    "is_ads_enabled": false,
+    "is_ads_enabled": true,
     "get_code_ad_type": "REWARDED_INTERSTITIAL", 
     "enabled_formats": {
       "app_open": true,
-      "banner": true,
+      "banner": false,
       "interstitial": true,
       "rewarded": true,
       "rewarded_interstitial": true
