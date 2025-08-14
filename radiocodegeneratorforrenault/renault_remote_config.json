@@ -1,11 +1,25 @@
 {
+  "//_________________________ APP CONFIGURATION _________________________//": "",
+  "//_comment_app": "This section controls core application behavior.",
   "app_config": {
-    "force_update_version_code": 18,
+    "//_comment_force_update": "Set this to a version code greater than the current app's version to trigger an update dialog. For example, if the current app is versionCode 21, setting this to 22 will show the dialog. Set to 0 to disable.",
+    "force_update_version_code": 22,
+
+    "//_comment_optional_update": "If an update is triggered, this controls its behavior. 'true' = shows 'Later' button. 'false' = forces the user to update.",
     "is_update_optional": true
   },
+
+  "//_________________________ ADS CONFIGURATION _________________________//": "",
+  "//_comment_ads": "This section controls all ad-related settings.",
   "ads_config": {
+    "//_comment_master_switch": "The master switch for all ads. If set to 'false', no ads will be shown anywhere in the app, regardless of other settings.",
     "is_ads_enabled": true,
+    
+    "//_comment_get_code_ad_type": "Determines the ad type shown to get a code. This is the primary monetization ad.",
+    "//_values": " 'REWARDED_INTERSTITIAL' (Recommended), 'REWARDED', 'INTERSTITIAL', or 'NONE' (to disable this specific ad without turning off all ads).",
     "get_code_ad_type": "REWARDED_INTERSTITIAL",
+
+    "//_comment_enabled_formats": "Individual switches for each ad format. Use these to remotely disable a specific format if it's causing issues.",
     "enabled_formats": {
       "app_open": true,
       "banner": true,
@@ -13,15 +27,21 @@
       "rewarded": true,
       "rewarded_interstitial": true
     },
+
+    "//_comment_ad_unit_ids": "Contains all AdMob ad unit IDs. IMPORTANT: Replace these test IDs with your production IDs before release.",
     "ad_unit_ids": {
-      "admob_app_id": "ca-app-pub-3973449687419911~9682981347",
-      "app_open": "ca-app-pub-3973449687419911/1544307845",
-      "banner_main_open": "ca-app-pub-3973449687419911/4460431013",
-      "banner_main": "ca-app-pub-3973449687419911/4308694727",
-      "banner_result": "ca-app-pub-3973449687419911/1388854588",
-      "interstitial_general": "ca-app-pub-3973449687419911/9369449717",
-      "rewarded_general": "ca-app-pub-3973449687419911/9157171184",
-      "rewarded_interstitial_get_code": "ca-app-pub-3973449687419911/4304864400"
+      "//_comment_app_lifecycle": "Ads related to app open/foreground events.",
+      "app_open": "ca-app-pub-3940256099942544/9257395921",
+
+      "//_comment_banners": "Collapsible banner ad units for different screens.",
+      "banner_main_open": "ca-app-pub-3940256099942544/6300978111",
+      "banner_main": "ca-app-pub-3940256099942544/6300978111",
+      "banner_result": "ca-app-pub-3940256099942544/6300978111",
+
+      "//_comment_full_screen": "Full-screen ad units for various placements.",
+      "interstitial_general": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded_general": "ca-app-pub-3940256099942544/5224354917",
+      "rewarded_interstitial_get_code": "ca-app-pub-3940256099942544/5354046379"
     }
   }
 }
