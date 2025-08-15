@@ -29,19 +29,19 @@
     },
 
     "//_comment_ad_unit_ids": "Contains all AdMob ad unit IDs. IMPORTANT: Replace these test IDs with your production IDs before release.",
-    "ad_unit_ids": {
+        "ad_unit_ids": {
       "//_comment_app_lifecycle": "Ads related to app open/foreground events.",
-      "app_open": "ca-app-pub-3973449687419911/1544307845",
+      "app_open": "ca-app-pub-3940256099942544/3419835294",
 
       "//_comment_banners": "Collapsible banner ad units for different screens.",
-      "banner_main_open": "ca-app-pub-3973449687419911/4308694727",
-      "banner_main": "ca-app-pub-3973449687419911/4460431013",
-      "banner_result": "ca-app-pub-3973449687419911/1388854588",
+      "banner_main_open": "ca-app-pub-3940256099942544/6300978111",
+      "banner_main": "ca-app-pub-3940256099942544/6300978111",
+      "banner_result": "ca-app-pub-3940256099942544/6300978111",
 
       "//_comment_full_screen": "Full-screen ad units for various placements.",
-      "interstitial_general": "ca-app-pub-3973449687419911/9369449717",
-      "rewarded_general": "ca-app-pub-3973449687419911/9157171184",
-      "rewarded_interstitial_get_code": "ca-app-pub-3973449687419911/4304864400"
+      "interstitial_general": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded_general": "ca-app-pub-3940256099942544/5224354917",
+      "rewarded_interstitial_get_code": "ca-app-pub-3940256099942544/5354046379"
     }
   }
 }
