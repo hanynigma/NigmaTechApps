@@ -13,7 +13,7 @@
   "//_comment_ads": "This section controls all ad-related settings.",
   "ads_config": {
     "//_comment_master_switch": "The master switch for all ads. If set to 'false', no ads will be shown anywhere in the app, regardless of other settings.",
-    "is_ads_enabled": false,
+    "is_ads_enabled": true,
     
     "//_comment_get_code_ad_type": "Determines the ad type shown to get a code. This is the primary monetization ad.",
     "//_values": " 'REWARDED_INTERSTITIAL' (Recommended), 'REWARDED', 'INTERSTITIAL', or 'NONE' (to disable this specific ad without turning off all ads).",
