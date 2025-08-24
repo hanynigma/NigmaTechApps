@@ -17,7 +17,7 @@
     
     "//_comment_get_code_ad_type": "Determines the ad type shown to get a code. This is the primary monetization ad.",
     "//_values": " 'REWARDED_INTERSTITIAL' (Recommended), 'REWARDED', 'INTERSTITIAL', or 'NONE' (to disable this specific ad without turning off all ads).",
-    "get_code_ad_type": "INTERSTITIAL",
+    "get_code_ad_type": "REWARDED_INTERSTITIAL",
 
     "//_comment_enabled_formats": "Individual switches for each ad format. Use these to remotely disable a specific format if it's causing issues.",
     "enabled_formats": {
