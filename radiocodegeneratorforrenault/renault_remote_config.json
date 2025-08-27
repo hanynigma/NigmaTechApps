@@ -3,7 +3,7 @@
   "//_comment_app": "This section controls core application behavior.",
   "app_config": {
     "//_comment_force_update": "Set this to a version code greater than the current app's version to trigger an update dialog. For example, if the current app is versionCode 21, setting this to 22 will show the dialog. Set to 0 to disable.",
-    "force_update_version_code": 24,
+    "force_update_version_code": 25,
 
     "//_comment_optional_update": "If an update is triggered, this controls its behavior. 'true' = shows 'Later' button. 'false' = forces the user to update.",
     "is_update_optional": false
