@@ -6,7 +6,9 @@
     "force_update_version_code": 25,
 
     "//_comment_optional_update": "If an update is triggered, this controls its behavior. 'true' = shows 'Later' button. 'false' = forces the user to update.",
-    "is_update_optional": false
+    "is_update_optional": false,
+
+    "youtube_video_id": "0PfNtvAOhQM"
   },
 
   "//_________________________ ADS CONFIGURATION _________________________//": "",
