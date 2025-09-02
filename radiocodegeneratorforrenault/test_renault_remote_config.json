@@ -18,7 +18,7 @@
     "is_ads_enabled": true,
     
     "//_comment_get_code_ad_type": "Determines the ad type shown to get a code. This is the primary monetization ad.",
-    "//_values": " 'REWARDED_INTERSTITIAL' (Recommended), 'REWARDED', 'INTERSTITIAL', or 'NONE' (to disable this specific ad without turning off all ads).",
+    "//_values": " 'REWARDED_INTERSTITIAL' (Recommended), 'REWARDED', 'INTERSTITIAL', or 'NONE'.",
     "get_code_ad_type": "REWARDED_INTERSTITIAL",
 
     "//_comment_enabled_formats": "Individual switches for each ad format. Use these to remotely disable a specific format if it's causing issues.",
@@ -30,20 +30,47 @@
       "rewarded_interstitial": true
     },
 
-    "//_comment_ad_unit_ids": "Contains all AdMob ad unit IDs. IMPORTANT: Replace these test IDs with your production IDs before release.",
-"ad_unit_ids": {
-"//_comment_app_lifecycle": "Ads related to app open/foreground events.",
-"app_open": "ca-app-pub-3940256099942544/3419835294",
-"//_comment_banners": "Collapsible banner ad units for different screens.",
-  "banner_main_open": "ca-app-pub-3940256099942544/6300978111",
-  "banner_main": "ca-app-pub-3940256099942544/6300978111",
-  "banner_result": "ca-app-pub-3940256099942544/6300978111",
-  "banner_howto": "ca-app-pub-3940256099942544/6300978111",
+    "//_comment_ad_unit_ids": "Contains all AdMob ad unit IDs for FULL-SCREEN formats.",
+    "ad_unit_ids": {
+      "//_comment_app_lifecycle": "Ads related to app open/foreground events.",
+      "app_open": "ca-app-pub-3940256099942544/3419835294",
 
-  "//_comment_full_screen": "Full-screen ad units for various placements.",
-  "interstitial_general": "ca-app-pub-3940256099942544/1033173712",
-  "rewarded_general": "ca-app-pub-3940256099942544/5224354917",
-  "rewarded_interstitial_get_code": "ca-app-pub-3940256099942544/5354046379"
+      "//_comment_full_screen": "Full-screen ad units for various placements.",
+      "interstitial_general": "ca-app-pub-3940256099942544/1033173712",
+      "rewarded_general": "ca-app-pub-3940256099942544/5224354917",
+      "rewarded_interstitial_get_code": "ca-app-pub-3940256099942544/5354046379"
+    },
+
+    "//_________________________ BANNER PLACEMENTS _________________________//": "",
+    "//_comment_banner_placements": "Detailed control for each banner ad placement in the app.",
+    "banner_placements": {
+      "//_comment_placement_main_open": "Banner on the first screen after splash.",
+      "main_open": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3940256099942544/6300978111",
+        "type": "COLLAPSIBLE_BOTTOM"
+      },
+      
+      "//_comment_placement_main_activity": "Banner on the main screen where user enters the pre-code.",
+      "main_activity": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3940256099942544/6300978111",
+        "type": "ADAPTIVE"
+      },
+
+      "//_comment_placement_result_activity": "Banner on the screen that shows the final code.",
+      "result_activity": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3940256099942544/6300978111",
+        "type": "ADAPTIVE"
+      },
+
+      "//_comment_placement_howto_activity": "Banner on the 'How to Use' screen.",
+      "howto_activity": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3940256099942544/6300978111",
+        "type": "ADAPTIVE"
+      }
     }
   }
 }
