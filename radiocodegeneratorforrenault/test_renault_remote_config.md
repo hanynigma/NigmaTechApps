@@ -4,6 +4,11 @@
 
 ---
 
+النظام الذي بنيناه في `BaseActivity` و `Remote Config` يدعم حاليًا:
+*   `ADAPTIVE`
+*   `COLLAPSIBLE_BOTTOM`
+*   `LARGE`
+
 ### App Configuration
 ```json
 {
