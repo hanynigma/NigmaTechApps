@@ -24,12 +24,12 @@
       "main_open": {
         "enabled": true,
         "unit_id": "ca-app-pub-3940256099942544/6300978111",
-        "type": "COLLAPSIBLE_BOTTOM"
+        "type": "LARGE"
       },
       "main_activity": {
         "enabled": true,
         "unit_id": "ca-app-pub-3940256099942544/6300978111",
-        "type": "ADAPTIVE"
+        "type": "COLLAPSIBLE_BOTTOM"
       },
       "result_activity": {
         "enabled": true,
@@ -39,7 +39,7 @@
       "howto_activity": {
         "enabled": true,
         "unit_id": "ca-app-pub-3940256099942544/6300978111",
-        "type": "ADAPTIVE"
+        "type": "LARGE"
       }
     }
   }
