@@ -8,7 +8,7 @@
         "show_openAd": "yes",
         "show_interstitial": "yes",
         "show_banner": "yes",
-        "updateVersion": "31",
+        "updateVersion": "33",
         "_admob_app_id": "ca-app-pub-3940256099942544~3347511713",
         "_admob_Open": "ca-app-pub-3940256099942544/9257395921",
         "_admob_Interstitial": "ca-app-pub-3940256099942544/1033173712",
@@ -19,5 +19,6 @@
     ]
   }
 ]
+
 
 
