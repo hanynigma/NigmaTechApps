@@ -24,7 +24,7 @@
       "main_open": {
         "enabled": true,
         "unit_id": "ca-app-pub-3973449687419911/4460431013",
-        "type": "COLLAPSIBLE_BOTTOM"
+        "type": "LARGE"
       },
       "main_activity": {
         "enabled": true,
