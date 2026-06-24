@@ -1,7 +1,7 @@
 {
   "app_config": {
-    "force_update_version_code": 34,
-    "is_update_optional": false,
+    "force_update_version_code": 35,
+    "is_update_optional": true,
     "youtube_video_id": "0PfNtvAOhQM"
   },
   "ads_config": {
