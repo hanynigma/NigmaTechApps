@@ -1,8 +1,13 @@
 {
+  "schema_version": 2,
+  "config_version": 27,
   "app_config": {
     "force_update_version_code": 35,
     "is_update_optional": true,
     "youtube_video_id": "0PfNtvAOhQM"
+  },
+  "code_access": {
+    "mode": "REWARDED_INTERSTITIAL_REQUIRED"
   },
   "ads_config": {
     "is_ads_enabled": true,
