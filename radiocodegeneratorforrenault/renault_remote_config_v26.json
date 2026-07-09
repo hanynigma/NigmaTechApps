@@ -1,10 +1,16 @@
 {
   "schema_version": 2,
-  "config_version": 27,
+  "config_version": 28,
   "app_config": {
     "force_update_version_code": 35,
     "is_update_optional": true,
     "youtube_video_id": "0PfNtvAOhQM"
+  },
+  "links_config": {
+    "support_email": "contactnigmatech@gmail.com",
+    "rate_app_url": "https://play.google.com/store/apps/details?id=com.nigmatech.radiocodegeneratorforrenault",
+    "support_rate_url": "https://play.google.com/store/apps/details?id=com.nigmatech.radiocodegeneratorforrenault",
+    "developer_page_url": "https://play.google.com/store/apps/developer?id=NigmaTech"
   },
   "code_access": {
     "mode": "REWARDED_INTERSTITIAL_REQUIRED"
