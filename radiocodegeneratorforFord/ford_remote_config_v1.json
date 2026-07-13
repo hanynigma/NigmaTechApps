@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "config_version": 1,
+  "app_config": {
+    "force_update_version_code": 14,
+    "is_update_optional": true,
+    "youtube_video_id": ""
+  },
+  "links_config": {
+    "support_email": "contactnigmatech@gmail.com",
+    "rate_app_url": "https://play.google.com/store/apps/details?id=com.nigmatech.radiocodegeneratorforford",
+    "support_rate_url": "https://play.google.com/store/apps/details?id=com.nigmatech.radiocodegeneratorforford",
+    "developer_page_url": "https://play.google.com/store/apps/developer?id=NigmaTech"
+  },
+  "code_access": {
+    "mode": "REWARDED_INTERSTITIAL_REQUIRED"
+  },
+  "ads_config": {
+    "is_ads_enabled": true,
+    "get_code_ad_type": "REWARDED_INTERSTITIAL",
+    "enabled_formats": {
+      "app_open": true,
+      "banner": true,
+      "interstitial": false,
+      "rewarded": false,
+      "rewarded_interstitial": true
+    },
+    "ad_unit_ids": {
+      "app_open": "ca-app-pub-3973449687419911/5039142793",
+      "interstitial_general": "",
+      "rewarded_general": "ca-app-pub-3973449687419911/1563886118",
+      "rewarded_interstitial_get_code": "ca-app-pub-3973449687419911/7628168378"
+    },
+    "banner_placements": {
+      "main_activity": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3973449687419911/6305011050",
+        "type": "COLLAPSIBLE_BOTTOM"
+      },
+      "result_activity": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3973449687419911/6305011050",
+        "type": "COLLAPSIBLE_BOTTOM"
+      },
+      "howto_activity": {
+        "enabled": true,
+        "unit_id": "ca-app-pub-3973449687419911/6305011050",
+        "type": "COLLAPSIBLE_BOTTOM"
+      }
+    }
+  }
+}
